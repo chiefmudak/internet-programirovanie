@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="html, css, теги, дз">
+    <meta name="description" content="Домашняя работа по HTML и CSS">
+    <title>Домашняя работа</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Домашняя работа по HTML и CSS</h1>
+</header>
+
+<nav>
+    <p>Тут ссылки на разделы страницы:</p>
+    <ul>
+        <li><a href="#zagolovki">Заголовки</a></li>
+        <li><a href="#spiski">Списки</a></li>
+        <li><a href="#kod">Код</a></li>
+        <li><a href="#citaty">Цитаты</a></li>
+        <li><a href="#tekst">Текст</a></li>
+        <li><a href="#css">CSS</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="zagolovki">
+    <h2>Заголовки и параграф</h2>
+    <h1>Это h1</h1>
+    <h2>Это h2</h2>
+    <h3>Это h3</h3>
+    <h4>Это h4</h4>
+    <h5>Это h5</h5>
+    <h6>Это h6</h6>
+    <p>Это обычный параграф, тег p.</p>
+</section>
+
+<section>
+    <h2>Картинка (одиночный тег)</h2>
+    <img src="https://placehold.co/200x100" alt="просто картинка">
+</section>
+
+<section>
+    <!-- это комментарий, его не видно на странице -->
+    <h2>Комментарий</h2>
+    <p>Выше в коде есть комментарий, посмотри исходный код страницы.</p>
+</section>
+
+<section id="spiski">
+    <h2>Списки</h2>
+
+    <h3>Обычный список ul</h3>
+    <ul>
+        <li>Первый пункт</li>
+        <li>Второй пункт</li>
+        <li>Третий пункт</li>
+    </ul>
+
+    <h3>Нумерованный список ol</h3>
+    <ol start="3" type="I">
+        <li>Пункт номер 3</li>
+        <li>Пункт номер 4</li>
+    </ol>
+    <ol reversed>
+        <li>Пункт</li>
+        <li>Пункт</li>
+        <li>Пункт</li>
+    </ol>
+
+    <h3>Список описаний dl</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>язык разметки</dd>
+        <dt>CSS</dt>
+        <dd>язык стилей</dd>
+    </dl>
+</section>
+
+<section id="kod">
+    <h2>Код</h2>
+    <pre>
+это преформатированный текст
+    он сохраняет пробелы
+и переносы строк
+    </pre>
+    <p>А вот так выглядит <code>код прямо в тексте</code>.</p>
+</section>
+
+<section id="citaty">
+    <h2>Цитаты</h2>
+    <p>Он сказал, что <q>всё будет хорошо</q>.</p>
+    <p>Источник: <cite>Учебная презентация</cite></p>
+    <blockquote>
+        Это длинная цитата. Она может занимать несколько строк
+        и обычно выделяется отступом.
+    </blockquote>
+</section>
+
+<section id="tekst">
+    <h2>Разметка текста</h2>
+
+    <p>Символы: меньше это &lt;, больше это &gt;, амперсанд это &amp;</p>
+
+    <p>Первая строка<br>Вторая строка<br>Третья строка</p>
+
+    <p>Вода это H<sub>2</sub>O, а два в квадрате это 2<sup>2</sup></p>
+
+    <p>Дата: <time datetime="2026-09-01">1 сентября 2026</time></p>
+
+    <p>Это <em>выделенный</em> текст и это <i>тоже выделенный</i> текст</p>
+
+    <p>Это <strong>важный</strong> текст и это <b>просто жирный</b> текст</p>
+
+    <p>Было <del>плохо</del>, стало <ins>хорошо</ins></p>
+</section>
+
+<section>
+    <h2>div и span</h2>
+    <div>
+        Это div, внутри него есть <span>span с одним словом</span>.
+    </div>
+</section>
+
+<section id="css">
+    <h2>Немного CSS</h2>
+    <p class="krasnyi">Этот текст красный, потому что у него класс krasnyi</p>
+    <p style="color: blue;">А этот текст синий через style прямо в теге</p>
+</section>
+
+</main>
+
+<footer>
+    <p>Конец домашней работы. Дата: 01.09.2026</p>
+</footer>
+
+</body>
+</html>
