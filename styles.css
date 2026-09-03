@@ -1,0 +1,28 @@
+/* это комментарий в css, пишется вот так */
+
+body {
+    font-family: Arial;
+    color: black;
+}
+
+h1 {
+    color: darkblue;
+}
+
+.krasnyi {
+    color: red;
+}
+
+nav {
+    background-color: lightgray;
+}
+
+pre {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+blockquote {
+    color: gray;
+    margin-left: 30px;
+}
